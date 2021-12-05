@@ -1,14 +1,8 @@
-import os
-
-inputs = ["example_input.txt", "real_input.txt"]
+import common
 
 if __name__ == "__main__":
-    for input_file in inputs:
-        file_name = os.path.join("inputs", input_file)
-        lines = []
-        with open(file_name, "r") as fin:
-            for line in fin.readlines():
-                lines.append(line.strip())
+    for input_file in common.inputs:
+        lines = list(common.read_file(input_file))
 
         counts = {}
         gamma_rate = ""
@@ -38,6 +32,3 @@ if __name__ == "__main__":
 
         power_consumption = int(gamma_rate, 2) * int(epsilon_rate, 2)
         print(f"Power consumption is {power_consumption} in {input_file}!")
-
-
-

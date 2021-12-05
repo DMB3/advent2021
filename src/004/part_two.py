@@ -1,6 +1,4 @@
-import os
-
-inputs = ["example_input.txt", "real_input.txt"]
+import common
 
 
 def remove_winners(boards):
@@ -67,27 +65,27 @@ def hit_number(number, boards, expected_winners=None, return_winner=False):
 
 
 if __name__ == "__main__":
-    for input_file in inputs:
-        file_name = os.path.join("inputs", input_file)
-        with open(file_name, "r") as fin:
-            lines = fin.readlines()
-            bingo_input = lines[0].strip()
+    for input_file in common.inputs:
+        lines = list(common.read_file(input_file))
 
-            boards = []
-            current_board = []
-            for line_input in lines[1:]:
-                line_input = line_input.strip()
+        bingo_input = lines[0].strip()
 
-                if not line_input:
-                    if len(current_board) > 0:
-                        boards.append(current_board)
-                    current_board = []
-                else:
-                    pieces = []
-                    for part in line_input.split(" "):
-                        if part:
-                            pieces.append(int(part))
-                    current_board.append(pieces)
+        boards = []
+        current_board = []
+        for line_input in lines[1:]:
+            line_input = line_input.strip()
+
+            if not line_input:
+                if len(current_board) > 0:
+                    boards.append(current_board)
+                current_board = []
+            else:
+                pieces = []
+                for part in line_input.split(" "):
+                    if part:
+                        pieces.append(int(part))
+                current_board.append(pieces)
+
         boards.append(current_board)
 
         winner = None

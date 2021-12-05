@@ -1,7 +1,7 @@
 import copy
 import os
 
-inputs = ["example_input.txt", "real_input.txt"]
+import common
 
 
 def find_character_counts(lines):
@@ -82,12 +82,9 @@ def find_scrubber_rating(lines):
 
 
 if __name__ == "__main__":
-    for input_file in inputs:
+    for input_file in common.inputs:
         file_name = os.path.join("inputs", input_file)
-        lines = []
-        with open(file_name, "r") as fin:
-            for line in fin.readlines():
-                lines.append(line.strip())
+        lines = list(common.read_file(input_file))
 
         oxygen_rating = find_oxygen_rating(lines)
         scrubber_rating = find_scrubber_rating(lines)
