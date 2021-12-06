@@ -11,8 +11,8 @@ Merry Christmas :)
 Solutions Added
 ---------------
 
-    - Day 1: [Sonar Sweep](src/001/readme.md)
-    - Day 2: [Dive!](src/002/readme.md)
-    - Day 3: [Binary Diagnostic](src/003/readme.md)
-    - Day 4: [Giant Squid](src/004/readme.md)
-    - Day 5: [Hydrothermal Venture](src/005/readme.md)
+    - Day 1: [Sonar Sweep](./src/001/)
+    - Day 2: [Dive!](./src/002/)
+    - Day 3: [Binary Diagnostic](./src/003/)
+    - Day 4: [Giant Squid](./src/004/)
+    - Day 5: [Hydrothermal Venture](./src/005/)
