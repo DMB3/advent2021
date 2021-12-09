@@ -19,3 +19,4 @@ Solutions Added
 - Day 6: [Lanternfish](./src/006/)
 - Day 7: [The Treachery of Whales](./src/007/)
 - Day 8: [Seven Segment Search](./src/008/)
+- Day 9: [Smoke Basin](./src/009/)
