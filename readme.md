@@ -21,3 +21,5 @@ Solutions Added
 - Day 8: [Seven Segment Search](./src/008/)
 - Day 9: [Smoke Basin](./src/009/)
 - Day 10: [Syntax Scoring](./src/010/)
+- Day 11: [Dumbo Octopus](./src/011/)
+- 
