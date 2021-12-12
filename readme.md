@@ -22,4 +22,4 @@ Solutions Added
 - Day 9: [Smoke Basin](./src/009/)
 - Day 10: [Syntax Scoring](./src/010/)
 - Day 11: [Dumbo Octopus](./src/011/)
-- 
+- Day 12: [Passage Pathing](./src/012/)
