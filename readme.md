@@ -23,3 +23,4 @@ Solutions Added
 - Day 10: [Syntax Scoring](./src/010/)
 - Day 11: [Dumbo Octopus](./src/011/)
 - Day 12: [Passage Pathing](./src/012/)
+- Day 13: [Transparent Origami](./src/013/)
