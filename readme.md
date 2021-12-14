@@ -24,3 +24,4 @@ Solutions Added
 - Day 11: [Dumbo Octopus](./src/011/)
 - Day 12: [Passage Pathing](./src/012/)
 - Day 13: [Transparent Origami](./src/013/)
+- Day 14: [Extended Polymerization](./src/014/)
