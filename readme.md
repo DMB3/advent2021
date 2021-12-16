@@ -26,3 +26,4 @@ Solutions Added
 - Day 13: [Transparent Origami](./src/013/)
 - Day 14: [Extended Polymerization](./src/014/)
 - Day 15: [Chiton](./src/015/)
+- Day 16: [Packet Decoder](./src/016/)
