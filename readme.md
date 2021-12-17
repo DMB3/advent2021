@@ -27,3 +27,4 @@ Solutions Added
 - Day 14: [Extended Polymerization](./src/014/)
 - Day 15: [Chiton](./src/015/)
 - Day 16: [Packet Decoder](./src/016/)
+- Day 17: [Trick Shot](./src/017/)
